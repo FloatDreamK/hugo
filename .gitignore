@@ -1,0 +1,21 @@
+# 忽略 Hugo 编译生成的目录和文件
+# 网站根目录位于 myblog/
+/myblog/public/
+/myblog/resources/_gen/
+/myblog/data/_gen/
+/myblog/.hugo_build.lock
+
+# 忽略本地开发工具和系统文件
+# 这些文件不属于网站源代码
+hugo.exe
+*.exe
+*.log
+.DS_Store
+
+# 忽略 VS Code 的本地设置
+# 如果需要共享工作区设置，可以只忽略 .vscode/settings.json
+.vscode/
+
+# 忽略 Go Modules 依赖（如果使用）
+/myblog/go.mod
+/myblog/go.sum
