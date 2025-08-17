@@ -10,4 +10,10 @@ title = 'Stm32真不好学，板子也真不好焊'
 
 四六级都裸考一遍过整挺好，四级考前做了两套卷，六级更是重量级，没买卷，听了一听力完事了，真没想到能过。
 
+markdown
+![Image Alt Text](/images/nosingle.jpg)
+
+html
+<img src="/images/nosingle.jpg" alt="Image Alt Text" style="width: 100%; height: auto;">
+
 ---
