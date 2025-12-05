@@ -1,7 +1,8 @@
 +++
 date = '2025-12-05T18:43:12+08:00'
 draft = false
-title = 'Lcd1602 Driver'
+title = 'LCD代码 Lcd1602 Driver'
+categories = ["单片机项目"]
 +++
 
 ---
