@@ -7,7 +7,7 @@ title = 'Lcd1602 Driver'
 ---
 
 main.c
-```
+```c
 #include "stm32f10x.h"
 #include "LCD1602.h"
 #include "stdio.h"
@@ -77,7 +77,7 @@ int main(void)
 ```
 
 lcd1602.h
-```
+```c
 #ifndef __LCD1602_H__
 #define __LCD1602_H__
 
@@ -112,7 +112,7 @@ void LCD_ShowBinNum(unsigned char Line, unsigned char Column, unsigned int Numbe
 ```
 
 lcd1602.c
-```
+```c
 #include "stm32f10x.h"
 #include "LCD1602.h"
 

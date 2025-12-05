@@ -245,10 +245,21 @@ markup:
         ordered: true
         startLevel: 2
     highlight:
+        # 使用CSS类而不是内联样式
         noClasses: false
+        # 启用代码围栏
         codeFences: true
+        # 自动检测语言
         guessSyntax: true
+        # 行号起始值
         lineNoStart: 1
+        # 显示行号
         lineNos: true
+        # 在表格中显示行号
         lineNumbersInTable: true
+        # Tab宽度
         tabWidth: 4
+        # 高亮样式 - 可选值: api, github, monokai, solarized-dark, dracula等
+        style: github
+        # 启用复制按钮（需要主题支持）
+        # hugo-theme-stack主题已经内置了复制功能
